@@ -27,7 +27,7 @@ Search and play YouTube videos.
   -v, --version      Print version.
   --                 Stops interpreting the following arguments as options.
 ```
-##Showcase
+## Showcase
 
 https://github.com/danjohles/yt-cli/assets/82652108/9eb9332e-3cd0-4fc8-a381-28a11579d530
 
