@@ -1,9 +1,18 @@
-# yt
-Search and play YouTube videos via command line.
+# yt-cli
+Search and play YouTube videos via the command line.
 
 ## Installation
-yt is just a simple bash script and relies on `youtube-dl`, `jq`, `fzf` and `mpv` for the heavy
-lifting, so make sure these programs are installed.
+It's just a simple bash script and relies on `yt-dlp`, `jq`, `fzf` and `mpv` for the heavy
+lifting, so make sure these programs are installed.   
+Place it somewhere like `~/.scripts`,     
+make it executable and add an alias in your `.bashrc`   
+`alias yt='/home/user/.scripts/yt'`    
+On Debian-based distros like Ubuntu, to get the latest version of yt-dlp, get the binaries from GitHub
+
+```sh
+sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp  
+```
 
 ## Usage
 ```
@@ -18,6 +27,7 @@ Search and play YouTube videos.
   -v, --version      Print version.
   --                 Stops interpreting the following arguments as options.
 ```
+##Showcase
 
-## Packages
-There is an AUR package available: [yt](https://aur.archlinux.org/packages/yt/)
+https://github.com/danjohles/yt-cli/assets/82652108/9eb9332e-3cd0-4fc8-a381-28a11579d530
+
